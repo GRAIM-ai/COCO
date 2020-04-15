@@ -50,7 +50,7 @@ class LinkedList:
             if current.get_item()==item:
                 found=True
             else:
-                a=current.get_item()
+                a=current
                 current=current.get_next()
         if a==None:
             self.head=current.get_next()
